@@ -1,49 +1,52 @@
 /* Roboto 900 700 500 400 */
 /* Raleway 700 */
 
-/* Test online lection Begin */
+
 *{
-    outline: 2px solid green;
+    /* outline: 2px solid green; */
     box-sizing: border-box;
 }
 
-h1,h2,h3,ul,p, li{
-    margin: 0;
-}
-ul{
-    padding-left: 0;
-}
-.container{
-    width: 1200px;
-    margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    /* padding: 0 15px; */
-    /* padding-top: 94px;
-    padding-bottom: 94px; */
- 
-}
-
-/* .section{
-    padding-top: 94px;
-    padding-bottom: 94px;
-} */
-
-/* Test online lection END */
 :root{
---primary-acent-color:#2196F3;
---title-test-color:  #757575;
---section-titel-color: #000000;
---primary-link-color: #212121;
---hero-titel-color: #FFFFFF;
---link-footer-color: rgba(255, 255, 255, 0.6);
-}
+    --primary-acent-color:#2196F3;
+    --title-test-color:  #757575;
+    --section-titel-color: #000000;
+    --primary-link-color: #212121;
+    --hero-titel-color: #FFFFFF;
+    --link-footer-color: rgba(255, 255, 255, 0.6);
+    }
+
+
 body{
     background-color: var(--hero-titel-color);
     color: var(--title-test-color);
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
 }
+
+h1,h2,h3,ul,p{
+    margin: 0;
+}
+ul{
+    padding-left: 0;
+}
+
+img{
+    display: block;
+    }
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .logo{
     color: #000000;
 }
@@ -127,44 +130,19 @@ body{
 /* Hero */
 .hero{
     background-color: #2F303A;
-    height: 600px;
     text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 .hero-titel{
     color: #FFFFFF;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    /* text-align: center; */
     letter-spacing: 0.06em;
     text-transform: uppercase; 
-    padding-top: 200px; 
     padding-bottom: 30px;
 }
-/* Button */
-/* .button{
-    color: var(--section-titel-color);
-    background-color: var(--hero-titel-color);
-    display: inline-block;
-    padding: 12px 24px;
-    font-family: inherit;
-    cursor: pointer;
-}
-.button.primary{
-    color: var(--primary-acent-color);
-    background-color: var(--hero-titel-color);
-}
-.button.secondary{
-    color: var(--hero-titel-color);
-    background-color: var(--primary-acent-color);
-    border: 2px;
-    border-radius: 4px;
-    border-color: var(--primary-acent-color);
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 30px;
-    letter-spacing: 0.06em;
-} */
 
 /* Hidden titels */
 
@@ -175,7 +153,6 @@ body{
     margin: -1px;
     border: 0;
     padding: 0;
-    
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
@@ -183,9 +160,7 @@ body{
   }
 
 /* Section features */
-.section-features{
-    padding-top: 94px;
-}
+
 .features-list,
 .list-work,
 .team-list
@@ -217,21 +192,18 @@ body{
 /* Work */
 .h2-titel,
 .team-titel{
- padding-top: 94px;
- margin-bottom: 50px;
-font-weight: 700;
-font-size: 36px;
-line-height: 1.16;
-text-align: center;
-letter-spacing: 0.03em;   
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;  
+    text-transform: none; 
 }
-.list-work{
-    padding-bottom: 94px;
+.nopadding-section{
+    padding-top: 0;
 }
 
-img{
-    display: block;
-    }
 
 /* Team */
 .section-team{
@@ -248,15 +220,13 @@ img{
     line-height: 1.18;
     letter-spacing: 0.03em;
     text-transform: none;
-    /* margin-top: 30px; */
-}
+    }
 
 .team-job{
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
     text-transform: none;
-    /* margin-bottom: 124px; */
     margin-top: 10px;
     }
 
@@ -303,7 +273,6 @@ img{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding-top: 94px;
     padding-bottom: 50px;
 }
 
@@ -383,15 +352,13 @@ img{
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 30px;
-    padding-bottom: 94px;
-}
+    }
+
 .portfolio-titel{
     margin-top: 20px;
     margin-bottom: 4px;
 }
-.portfolio-descr{
-    /* margin-bottom: 50px; */
-}
+
 .page-footer{
     padding-top: 50px;
     padding-bottom: 60px;
