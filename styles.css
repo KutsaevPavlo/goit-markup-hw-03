@@ -3,11 +3,11 @@
 
 /* Test online lection Begin */
 *{
-    /* outline: 2px solid green; */
+    outline: 2px solid green;
     box-sizing: border-box;
 }
 
-h1,h2,h3,ul,p{
+h1,h2,h3,ul,p, li{
     margin: 0;
 }
 ul{
@@ -403,5 +403,5 @@ img{
     
 }
 .portfolio-item{
-    flex-basis: calc((100% - 60 px)/3);
+    flex-basis: calc((100% - 60px)/3);
 }
