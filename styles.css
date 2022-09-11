@@ -14,6 +14,8 @@
     --primary-link-color: #212121;
     --hero-titel-color: #FFFFFF;
     --link-footer-color: rgba(255, 255, 255, 0.6);
+    --indent: 30px;
+    --items: 3;
     }
 
 
@@ -351,7 +353,7 @@ img{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 30px;
+    gap: var(--indent)
     }
 
 .portfolio-titel{
@@ -370,5 +372,5 @@ img{
     
 }
 .portfolio-item{
-    flex-basis: calc((100% - 60px)/3);
+    flex-basis: calc((100% - ( var(--indent) * (var(--items)-1 )))/ var(--items) );
 }
