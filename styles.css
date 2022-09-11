@@ -18,10 +18,17 @@ ul{
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
+    /* padding: 0 15px; */
+    /* padding-top: 94px;
+    padding-bottom: 94px; */
+ 
+}
+
+/* .section{
     padding-top: 94px;
     padding-bottom: 94px;
-    
-}
+} */
+
 /* Test online lection END */
 :root{
 --primary-acent-color:#2196F3;
